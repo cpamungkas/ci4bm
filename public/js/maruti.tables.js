@@ -1,9 +1,24 @@
 $(document).ready(function () {
+  // var table = $("#tablestoresetup").dataTable();
+
+
   $(".data-table").dataTable({
     bJQueryUI: true,
     sPaginationType: "full_numbers",
     sDom: '<""l>t<"F"fp>',
+    sOrder: [[1, 'asc']],
+    select: true
   });
+
+  // $(".data-table tbody").on('click', 'tr', function () {
+  //   if ($(this).hasClass('selected')) {
+  //     $(this).removeClass('selected');
+  //   } else {
+  //     $(".data-table").('tr.selected').removeClass('selected');
+  //     $(this).addClass('selected');
+  //   }
+  // });
+
 
   $("input[type=checkbox],input[type=radio],input[type=file]").uniform();
 
@@ -18,10 +33,13 @@ $(document).ready(function () {
       this.checked = checkedStatus;
       if (checkedStatus == this.checked) {
         $(this).closest(".checker > span").removeClass("checked");
+        // alert('checked');
       }
       if (this.checked) {
         $(this).closest(".checker > span").addClass("checked");
+        // alert('checked bro');
       }
     });
   });
+
 });

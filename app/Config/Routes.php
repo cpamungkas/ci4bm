@@ -34,12 +34,15 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 
 // custom routes
-$routes->get('/', 'CSignin::index');
+// $routes->get('/', 'CSignin::index');
 $routes->get('/signup', 'CSignup::index');
 $routes->get('/signin', 'CSignin::index');
 $routes->get('/signout', 'CSignin::logout');
-$routes->get('/profile', 'CProfile::index', ['filter' => 'authGuard']);
+$routes->get('/profile', 'CProfile::index');
 $routes->get('/store', 'Cstore::index');
+$routes->get('/admin', 'Home::admin');
+$routes->get('/superintendent', 'Home::superintendent');
+$routes->get('/worker', 'Home::worker');
 
 
 /*

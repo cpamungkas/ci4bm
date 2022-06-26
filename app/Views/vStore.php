@@ -105,10 +105,11 @@
                         <h5>Table Store Setup</h5>
                     </div>
                     <div class="widget-content nopadding">
-                        <table id="tablestore" class="table table-bordered with-check data-table">
+                        <table id="tablestoresetup" class="table table-bordered with-check data-table">
                             <thead>
                                 <tr>
-                                    <th><input type="checkbox" id="title-table-checkbox" name="title-table-checkbox" /></th>
+                                    <!-- <th><input type="checkbox" id="title-table-checkbox" name="title-table-checkbox" /></th> -->
+
                                     <th>No</th>
                                     <th>Store Name</th>
                                     <th>Store Code</th>
@@ -116,209 +117,133 @@
                                     <th>ID PLN 1</th>
                                     <th>KWH Meter 2</th>
                                     <th>ID PLN 2</th>
+                                    <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr class="gradeX">
-                                    <td><input type="checkbox" /></td>
-                                    <td>1</td>
-                                    <td>Semarang Pandanaran</td>
-                                    <td>10106</td>
-                                    <td class="center">105</td>
-                                    <td class="center">523010223934</td>
-                                    <td class="center">197</td>
-                                    <td class="center">523010035301</td>
-                                </tr>
-                                <tr class="gradeC">
-                                    <td><input type="checkbox" /></td>
-                                    <td>2</td>
-                                    <td>Matraman</td>
-                                    <td>10108</td>
-                                    <td class="center">1210</td>
-                                    <td class="center">544100076592</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                </tr>
-                                <tr class="gradeA">
-                                    <td><input type="checkbox" /></td>
-                                    <td>3</td>
-                                    <td>Internet Explorer 5.5</td>
-                                    <td>Win 95+</td>
-                                    <td class="center">5.5</td>
-                                    <td class="center">5.5</td>
-                                    <td class="center">5.5</td>
-                                    <td class="center">5.5</td>
-                                </tr>
-                                <tr class="gradeU">
-                                    <td><input type="checkbox" /></td>
-                                    <td>4</td>
-                                    <td>All others</td>
-                                    <td>-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                </tr>
-                                <tr class="gradeU">
-                                    <td><input type="checkbox" /></td>
-                                    <td>4</td>
-                                    <td>All others</td>
-                                    <td>-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                </tr>
-                                <tr class="gradeU">
-                                    <td><input type="checkbox" /></td>
-                                    <td>4</td>
-                                    <td>All others</td>
-                                    <td>-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                </tr>
-                                <tr class="gradeU">
-                                    <td><input type="checkbox" /></td>
-                                    <td>4</td>
-                                    <td>All others</td>
-                                    <td>-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                </tr>
-                                <tr class="gradeU">
-                                    <td><input type="checkbox" /></td>
-                                    <td>4</td>
-                                    <td>All others</td>
-                                    <td>-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                </tr>
-                                <tr class="gradeU">
-                                    <td><input type="checkbox" /></td>
-                                    <td>4</td>
-                                    <td>All others</td>
-                                    <td>-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                </tr>
-                                <tr class="gradeU">
-                                    <td><input type="checkbox" /></td>
-                                    <td>4</td>
-                                    <td>All others</td>
-                                    <td>-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                </tr>
-                                <tr class="gradeU">
-                                    <td><input type="checkbox" /></td>
-                                    <td>4</td>
-                                    <td>All others</td>
-                                    <td>-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                </tr>
-                                <tr class="gradeU">
-                                    <td><input type="checkbox" /></td>
-                                    <td>4</td>
-                                    <td>All others</td>
-                                    <td>-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                </tr>
-                                <tr class="gradeU">
-                                    <td><input type="checkbox" /></td>
-                                    <td>4</td>
-                                    <td>All others</td>
-                                    <td>-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                </tr>
-                                <tr class="gradeU">
-                                    <td><input type="checkbox" /></td>
-                                    <td>4</td>
-                                    <td>All others</td>
-                                    <td>-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                </tr>
-                                <tr class="gradeU">
-                                    <td><input type="checkbox" /></td>
-                                    <td>4</td>
-                                    <td>All others</td>
-                                    <td>-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                </tr>
-                                <tr class="gradeU">
-                                    <td><input type="checkbox" /></td>
-                                    <td>4</td>
-                                    <td>All others</td>
-                                    <td>-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                </tr>
-                                <tr class="gradeU">
-                                    <td><input type="checkbox" /></td>
-                                    <td>4</td>
-                                    <td>All others</td>
-                                    <td>-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                </tr>
-                                <tr class="gradeU">
-                                    <td><input type="checkbox" /></td>
-                                    <td>4</td>
-                                    <td>All others</td>
-                                    <td>-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                </tr>
-                                <tr class="gradeU">
-                                    <td><input type="checkbox" /></td>
-                                    <td>4</td>
-                                    <td>All others</td>
-                                    <td>-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                </tr>
-                                <tr class="gradeU">
-                                    <td><input type="checkbox" /></td>
-                                    <td>4</td>
-                                    <td>All others</td>
-                                    <td>-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                    <td class="center">-</td>
-                                </tr>
+                                <?php $i = 1; ?>
+                                <?php foreach ($tablestore as $ts) : ?>
+                                    <tr class="gradeX">
+                                        <!-- <td><input type="checkbox" /></td> -->
+
+                                        <td><?= $i; ?></td>
+                                        <td><?= $ts['StoreName']; ?></td>
+                                        <td><?= $ts['StoreCode']; ?></td>
+                                        <td class="center"><?= $ts['KWHMeter1']; ?></td>
+                                        <td class="center"><?= $ts['idPLN1']; ?></td>
+                                        <td class="center"><?= $ts['KWHMeter2']; ?></td>
+                                        <td class="center"><?= $ts['idPLN2']; ?></td>
+                                        <td>
+                                            <a href="#myModalEdit<?= $i; ?>" data-toggle="modal"><i class="icon-edit tip-top" data-original-title="edit data"></i></a> |
+                                            <a href="#myModalDelete<?= $i; ?>" data-toggle="modal"> <i class="icon-remove-sign tip-top" data-original-title="delete data"></i></a>
+                                        </td>
+                                    </tr>
+                                    <div id="myModalEdit<?= $i; ?>" class="modal hide" aria-hidden="true" style="display: none;">
+                                        <div class="modal-header">
+                                            <button data-dismiss="modal" class="close" type="button">×</button>
+                                            <h3>Edit Data Store <?= $ts['StoreName']; ?></h3>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- <p></p> -->
+                                            <div class="widget-box nopadding">
+                                                <div class="widget-content ">
+                                                    <form action="#" method="get" class="form-horizontal">
+                                                        <div class="control-group form-row">
+                                                            <div class="controls">
+                                                                <label class="control-label">Store Name</label>
+                                                                <div style="margin-left:88px;margin-top:-25px;">
+                                                                    <input type="text" name="storename" id="storename" style="width:35%;padding:5px" />
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="control-group form-row ">
+                                                            <div class="controls">
+                                                                <label class="control-label">Store Code</label>
+                                                                <!-- <div style="margin-left:88px;margin-top:-25px;"> -->
+                                                                <input type="text" name="storecode" id="storecode" style="width:10%;padding:5px" />
+                                                                <!-- </div> -->
+                                                            </div>
+                                                        </div>
+                                                        <div class="control-group">
+                                                            <!-- <div class="controls"> -->
+                                                            <label class="control-label">KWH Meter 1</label>
+                                                            <!-- <div> -->
+                                                            <select name="modalkwhmeter1" id="modalkwhmeter1">
+                                                                <option value="0">Select Item</option>
+                                                                <option value="2.2">2.2 KVA</option>
+                                                                <option value="41.5">41.5 KVA</option>
+                                                                <option value="53">53 KVA</option>
+                                                                <option value="66">66 KVA</option>
+                                                                <option value="82.5">82.5 KVA</option>
+                                                                <option value="105">105 KVA</option>
+                                                                <option value="131">131 KVA</option>
+                                                                <option value="135">135 KVA</option>
+                                                                <option value="147">147 KVA</option>
+                                                                <option value="164">164 KVA</option>
+                                                                <option value="165">165 KVA</option>
+                                                                <option value="197">197 KVA</option>
+                                                                <option value="240">240 KVA</option>
+                                                                <option value="270">270 KVA</option>
+                                                                <option value="345">345 KVA</option>
+                                                                <option value="415">415 KVA</option>
+                                                                <option value="555">555 KVA</option>
+                                                                <option value="865">865 KVA</option>
+                                                                <option value="1110">1,110 KVA</option>
+                                                                <option value="1210">1,210 KVA</option>
+                                                                <option value="1250">1,250 KVA</option>
+                                                                <option value="1385">1,385 KVA</option>
+                                                            </select>
+                                                            <!-- <label class="control-label" style="padding:0 0 0 15%;">Id PLN 1</label>
+                                                                    <input type="text" name="idpln1" id="idpln1" /> -->
+                                                            <!-- </div> -->
+                                                            <!-- </div> -->
+                                                        </div>
+                                                        <div class="control-group">
+                                                            <!-- <div class="controls"> -->
+                                                            <label class="control-label">KWH Meter 2</label>
+                                                            <!-- <div> -->
+                                                            <select name="modalkwhmeter2" id="modalkwhmeter2">
+                                                                <option value="0">Select Item</option>
+                                                                <option value="2.2">2.2 KVA</option>
+                                                                <option value="66">66 KVA</option>
+                                                                <option value="82.5">82.5 KVA</option>
+                                                                <option value="147">147 KVA</option>
+                                                                <option value="197">197 KVA</option>
+                                                            </select>
+                                                            <!-- <label class="control-label" style="padding:5px 0 0 15%; ">Id PLN 2</label> -->
+                                                            <!-- <input type="text" name="idpln2" id="idpln2" /> -->
+                                                            <!-- </div> -->
+                                                            <!-- </div> -->
+                                                        </div>
+                                                        <div class="form-actions">
+                                                            <button type="submit" class="btn btn-success">Save</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a data-dismiss="modal" class="btn btn-primary" href="#">Confirm</a>
+                                            <a data-dismiss="modal" class="btn" href="#">Cancel</a>
+                                        </div>
+                                    </div>
+                                    <div id="myModalDelete<?= $i; ?>" class="modal hide" aria-hidden="true" style="display: none;">
+                                        <div class="modal-header">
+                                            <button data-dismiss="modal" class="close" type="button">
+                                                ×
+                                            </button>
+                                            <h3>Delete Data Store</h3>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p><?= $ts['StoreName']; ?></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a data-dismiss="modal" class="btn btn-primary" href="#">Delete</a>
+                                            <a data-dismiss="modal" class="btn" href="#">Cancel</a>
+                                        </div>
+                                    </div>
+                                    <?php $i++; ?>
+                                <?php endforeach; ?>
 
                             </tbody>
                         </table>

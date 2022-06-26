@@ -2,17 +2,21 @@
 
 namespace App\Controllers;
 
-use CodeIgniter\Controller;
+use App\Models\StoreModel;
 
-class CProfile extends Controller
+class CProfile extends BaseController
 {
     public function index()
     {
-        $data['title'] = 'Home | B.M Apps &copy;' . date('Y');
+
+        $data = [];
         $session = session();
         if (!$session->get('isLoggedIn')) {
-            return redirect()->to('/Home');
+            $data['title'] = 'Log In | B.M Apps &copy; Gramedia ' . date('Y');
+            return view('vLogin', $data);
         } else {
+            $data['title'] = 'Store Setup | B.M Apps &copy; Gramedia ' . date('Y');
+
             echo "Hello : " . $session->get('name');
             echo "<br>";
             echo "isLoggedIn : " . $session->get('isLoggedIn');

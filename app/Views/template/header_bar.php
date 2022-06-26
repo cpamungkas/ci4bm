@@ -19,7 +19,7 @@
             <li class="dropdown" id="menu-profile">
                 <a href="#" data-toggle="dropdown" data-target="#menu-profile" class="dropdown-toggle"><i class="icon icon-user"></i><span class="text"> <?= $name; ?> </span><b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li><a class="sAdd" title="" href="#"><i class="icon icon-user"></i> <span class="text">Profile</span></a></li>
+                    <li><a class="sAdd" title="" href="<?= base_url('profile'); ?>"><i class="icon icon-user"></i> <span class="text">Profile</span></a></li>
                     <li><a class="sAdd" title="" href="#"><i class="icon icon-user"></i> <span class="text">Change Password</span></a></li>
                     <li><a class="sInbox" title="" href="signout"><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a></li>
                 </ul>

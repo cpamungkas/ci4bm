@@ -11,8 +11,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" />
     <link rel="script" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" />
     <link rel="script" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif, Garamond;
+
+        }
+
         .row {
             margin-left: 2%;
             margin-right: 2%;
@@ -90,7 +101,7 @@
         }
 
         .signin {
-            background-color: white;
+            background-color: #000;
             padding: 2%;
             /* margin: auto; */
         }
@@ -125,7 +136,7 @@
             margin-bottom: 15%;
             font-size: 16px;
             font-weight: 10px !important;
-            font-family: Garamond;
+            font-family: 'Poppins', sans-serif, Garamond;
         }
 
         @media only screen and (max-width: 600px) {
@@ -222,9 +233,9 @@
                         </div>
                     <?php endif; ?>
                     <!-- Email -->
-                    <input type="email" id="email" name="email" class="form-control mb-6" placeholder="&#xf0e0; Email" style="font-family:Arial, FontAwesome">
+                    <input type="email" id="email" name="email" class="form-control mb-6" placeholder="&#xf0e0; Email" style="font-family:'Poppins', sans-serif, Garamond, FontAwesome;">
                     <!-- Password -->
-                    <input type="password" id="password" name="password" class="form-control mb-6" placeholder="&#xf023;  Password" style="font-family:Arial, FontAwesome">
+                    <input type="password" id="password" name="password" class="form-control mb-6" placeholder="&#xf023;  Password" style="font-family:'Poppins', sans-serif, FontAwesome;">
                     <i class="fa fa-fw fa-eye-slash" id="togglePassword"></i>
                     <!-- Sign in button -->
                     <button class="btn btn-info btn-block LoginBtn" type="submit">LOGIN</button>

@@ -47,7 +47,17 @@ class CSignin extends Controller
                     'isLoggedIn' => TRUE
                 ];
                 $session->set($ses_data);
-                return redirect()->to('/Home');
+                if ($session->get('role_id') == 99) {
+                    return redirect()->to('/admin');
+                } elseif ($session->get('role_id') == 1) {
+                    return redirect()->to('/superintendent');
+                    // return redirect()->to('/Home');
+                } elseif ($session->get('role_id') == 2) {
+                    return redirect()->to('/worker');
+                } else {
+                    return redirect()->to('/');
+                }
+                // return redirect()->to('/Home');
             } else {
                 $session->setFlashdata('msg', 'Password is incorrect!');
                 return redirect()->to('/Home');

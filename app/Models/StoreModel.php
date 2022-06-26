@@ -24,4 +24,11 @@ class StoreModel extends Model
     {
         return $this->db->table($this->table)->get()->getLastRow()->idStore;
     }
+
+    public function getDataALl()
+    {
+        $query = "select * from tb_store";
+
+        return $this->db->query($query)->getResultArray();
+    }
 }

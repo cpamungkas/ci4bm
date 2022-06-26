@@ -26,6 +26,7 @@ class CStore extends BaseController
             $data['role_id'] = $session->get('role_id');
             $data['date_created'] = $session->get('date_created');
             $data['status_deleted'] = $session->get('status_deleted');
+            $data['tablestore'] = (new StoreModel())->getDataALl();  //(new SalesdailyModel())->getDataAll();
             return view('vStore', $data);
         }
     }
@@ -51,9 +52,9 @@ class CStore extends BaseController
             helper(['form', 'url']);
             $rules = [
                 'storename' => [
-                    'rules' => 'required|trim',
+                    'rules' => 'required|trim|is_unique[tb_store.StoreName]',
                     'errors' => [
-                        'required' => 'You must enter a Store Code'
+                        'required' => 'You must enter a Store Name'
                     ]
                 ],
                 'storecode' => [
@@ -81,6 +82,7 @@ class CStore extends BaseController
             if (!$this->validate($rules)) {
                 $data['title'] = 'Store Setup | B.M Apps &copy; Gramedia ' . date('Y');
                 $data['validation'] = $this->validator;
+                $data['tablestore'] = (new StoreModel())->getDataALl();
                 return view('vStore', $data);
             } else {
                 $StoreModel = new StoreModel();
