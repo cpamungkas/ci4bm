@@ -1,5 +1,5 @@
 <div id="sidebar" class="sidebar      h-sidebar                navbar-collapse collapse          ace-save-state menu-min sidebar-fixed">
-    <script type="text/javascript">
+    <script type=" text/javascript">
         try {
             ace.settings.loadState('sidebar')
         } catch (e) {}
@@ -7,22 +7,22 @@
 
     <div class="sidebar-shortcuts" id="sidebar-shortcuts">
         <!-- <div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
-            <button class="btn btn-success">
-                <i class="ace-icon fa fa-signal"></i>
-            </button>
+                    <button class="btn btn-success">
+                        <i class="ace-icon fa fa-signal"></i>
+                    </button>
 
-            <button class="btn btn-info">
-                <i class="ace-icon fa fa-pencil"></i>
-            </button>
+                    <button class="btn btn-info">
+                        <i class="ace-icon fa fa-pencil"></i>
+                    </button>
 
-            <button class="btn btn-warning">
-                <i class="ace-icon fa fa-users"></i>
-            </button>
+                    <button class="btn btn-warning">
+                        <i class="ace-icon fa fa-users"></i>
+                    </button>
 
-            <button class="btn btn-danger">
-                <i class="ace-icon fa fa-cogs"></i>
-            </button>
-        </div>-->
+                    <button class="btn btn-danger">
+                        <i class="ace-icon fa fa-cogs"></i>
+                    </button>
+                </div> -->
 
         <div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
             <span class="btn btn-success"></span>
@@ -37,7 +37,7 @@
     <!-- /.sidebar-shortcuts -->
 
     <ul class="nav nav-list">
-        <li class="hover">
+        <li class="active open hover">
             <a href="<?= base_url(); ?>">
                 <i class="menu-icon fa fa-tachometer"></i>
                 <span class="menu-text"> Dashboard </span>
@@ -46,11 +46,12 @@
             <b class="arrow"></b>
         </li>
 
-        <li class=" hover">
+        <li class="hover">
             <a href="#" class="dropdown-toggle">
                 <i class="menu-icon fa fa-desktop"></i>
                 <span class="menu-text">
-                    UI &amp; Elements
+                    <!-- UI &amp; Elements -->
+                    Choose an option
                 </span>
 
                 <b class="arrow fa fa-angle-down"></b>
@@ -59,171 +60,71 @@
             <b class="arrow"></b>
 
             <ul class="submenu">
-                <li class="active open hover">
-                    <a href="#" class="dropdown-toggle">
+                <li class="hover">
+                    <a href="store">
                         <i class="menu-icon fa fa-caret-right"></i>
-
-                        Layouts
-                        <b class="arrow fa fa-angle-down"></b>
+                        Store
                     </a>
 
                     <b class="arrow"></b>
+                </li>
 
+                <li class="hover">
+                    <a href="store">
+                        <i class="menu-icon fa fa-caret-right"></i>
+                        Employee
+                    </a>
+
+                    <b class="arrow"></b>
+                </li>
+
+                <li class="hover">
+                    <a href="#" class="dropdown-toggle">
+                        <i class="menu-icon fa fa-caret-right"></i>
+                        Equipment
+                        <b class="arrow fa fa-angle-down"></b>
+                    </a>
+                    <b class="arrow"></b>
                     <ul class="submenu">
                         <li class="active hover">
                             <a href="top-menu.html">
                                 <i class="menu-icon fa fa-caret-right"></i>
-                                Top Menu
+                                Trafo &amp; Cubicle
                             </a>
-
                             <b class="arrow"></b>
                         </li>
-
                         <li class="hover">
                             <a href="two-menu-1.html">
                                 <i class="menu-icon fa fa-caret-right"></i>
-                                Two Menus 1
+                                KWH Meter
                             </a>
-
                             <b class="arrow"></b>
                         </li>
-
                         <li class="hover">
                             <a href="two-menu-2.html">
                                 <i class="menu-icon fa fa-caret-right"></i>
-                                Two Menus 2
+                                Panel LVMDP
                             </a>
-
                             <b class="arrow"></b>
                         </li>
-
                         <li class="hover">
                             <a href="mobile-menu-1.html">
                                 <i class="menu-icon fa fa-caret-right"></i>
-                                Default Mobile Menu
+                                Panel Capasitor Bank
                             </a>
-
                             <b class="arrow"></b>
                         </li>
-
-                        <li class="hover">
-                            <a href="mobile-menu-2.html">
-                                <i class="menu-icon fa fa-caret-right"></i>
-                                Mobile Menu 2
-                            </a>
-
-                            <b class="arrow"></b>
-                        </li>
-
-                        <li class="hover">
-                            <a href="mobile-menu-3.html">
-                                <i class="menu-icon fa fa-caret-right"></i>
-                                Mobile Menu 3
-                            </a>
-
-                            <b class="arrow"></b>
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="hover">
-                    <a href="typography.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Typography
-                    </a>
-
-                    <b class="arrow"></b>
-                </li>
-
-                <li class="hover">
-                    <a href="elements.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Elements
-                    </a>
-
-                    <b class="arrow"></b>
-                </li>
-
-                <li class="hover">
-                    <a href="buttons.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Buttons &amp; Icons
-                    </a>
-
-                    <b class="arrow"></b>
-                </li>
-
-                <li class="hover">
-                    <a href="content-slider.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Content Sliders
-                    </a>
-
-                    <b class="arrow"></b>
-                </li>
-
-                <li class="hover">
-                    <a href="treeview.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Treeview
-                    </a>
-
-                    <b class="arrow"></b>
-                </li>
-
-                <li class="hover">
-                    <a href="jquery-ui.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        jQuery UI
-                    </a>
-
-                    <b class="arrow"></b>
-                </li>
-
-                <li class="hover">
-                    <a href="nestable-list.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Nestable Lists
-                    </a>
-
-                    <b class="arrow"></b>
-                </li>
-
-                <li class="hover">
-                    <a href="#" class="dropdown-toggle">
-                        <i class="menu-icon fa fa-caret-right"></i>
-
-                        Three Level Menu
-                        <b class="arrow fa fa-angle-down"></b>
-                    </a>
-
-                    <b class="arrow"></b>
-
-                    <ul class="submenu">
-                        <li class="hover">
-                            <a href="#">
-                                <i class="menu-icon fa fa-leaf green"></i>
-                                Item #1
-                            </a>
-
-                            <b class="arrow"></b>
-                        </li>
-
                         <li class="hover">
                             <a href="#" class="dropdown-toggle">
-                                <i class="menu-icon fa fa-pencil orange"></i>
-
-                                4th level
+                                <i class="menu-icon fa fa-bolt"></i>
+                                Genset
                                 <b class="arrow fa fa-angle-down"></b>
                             </a>
-
-                            <b class="arrow"></b>
-
                             <ul class="submenu">
                                 <li class="hover">
                                     <a href="#">
-                                        <i class="menu-icon fa fa-plus purple"></i>
-                                        Add Product
+                                        <i class="menu-icon fa fa-bolt"></i>
+                                        Genset 1
                                     </a>
 
                                     <b class="arrow"></b>
@@ -231,272 +132,766 @@
 
                                 <li class="hover">
                                     <a href="#">
-                                        <i class="menu-icon fa fa-eye pink"></i>
-                                        View Products
+                                        <i class="menu-icon fa fa-bolt"></i>
+                                        Genset 2
                                     </a>
 
                                     <b class="arrow"></b>
                                 </li>
                             </ul>
                         </li>
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Diesel Hydrant
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="#" class="dropdown-toggle">
+                                <i class="menu-icon fa fa-snowflake-o"></i>
+                                AC
+                                <b class="arrow fa fa-angle-down"></b>
+                            </a>
+                            <b class="arrow"></b>
+                            <ul class="submenu">
+                                <li class="hover">
+                                    <a href="#">
+                                        <i class="menu-icon fa fa-snowflake-o"></i>
+                                        AC Chiller
+                                    </a>
+
+                                    <b class="arrow"></b>
+                                </li>
+
+                                <li class="hover">
+                                    <a href="#">
+                                        <i class="menu-icon fa fa-snowflake-o"></i>
+                                        AC Cooling Tower
+                                    </a>
+
+                                    <b class="arrow"></b>
+                                </li>
+
+                                <li class="hover">
+                                    <a href="#">
+                                        <i class="menu-icon fa fa-snowflake-o"></i>
+                                        AC AHU
+                                    </a>
+
+                                    <b class="arrow"></b>
+                                </li>
+
+                                <li class="hover">
+                                    <a href="#">
+                                        <i class="menu-icon fa fa-snowflake-o"></i>
+                                        AC Splitwall, Duck, Cassette, VRV
+                                    </a>
+
+                                    <b class="arrow"></b>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-thermometer-full"></i>
+                                Suhu
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-lightbulb-o"></i>
+                                Lighting
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="#" class="dropdown-toggle">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Stair
+                                <b class="arrow fa fa-angle-down"></b>
+                            </a>
+                            <b class="arrow"></b>
+                            <ul class="submenu">
+                                <li class="hover">
+                                    <a href="#">
+                                        <i class="menu-icon fa fa-caret-right"></i>
+                                        Escalator
+                                    </a>
+
+                                    <b class="arrow"></b>
+                                </li>
+
+                                <li class="hover">
+                                    <a href="#">
+                                        <i class="menu-icon fa fa-caret-right"></i>
+                                        Elevator
+                                    </a>
+
+                                    <b class="arrow"></b>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Dumbwater
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Sanitary
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                UPS
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Gas Station
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                STP
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                CCTV
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Plumbing
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Meter Sumber &amp; Air Olahan
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Dinding Partisi
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Pintu
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Folding Gate
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Rolling Door
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Fire Fighting
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Telephonr &amp; PABX
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li class="hover">
+                    <a href="#" class="dropdown-toggle">
+                        <i class="menu-icon fa fa-caret-right"></i>
+                        Schedule
+                        <b class="arrow fa fa-angle-down"></b>
+                    </a>
+                    <b class="arrow"></b>
+                    <ul class="submenu">
+                        <li class="active hover">
+                            <a href="top-menu.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Top Menu
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="two-menu-1.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Two Menus 1
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="two-menu-2.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Two Menus 2
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="mobile-menu-1.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Default Mobile Menu
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="mobile-menu-2.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Mobile Menu 2
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Mobile Menu 3
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="hover">
+                    <a href="#schedule">
+                        <i class="menu-icon fa fa-caret-right"></i>
+                        Store Equipment
+                    </a>
+
+                    <b class="arrow"></b>
+                </li>
+
+                <li class="hover">
+                    <a href="#" class="dropdown-toggle">
+                        <i class="menu-icon fa fa-caret-right"></i>
+                        Operational
+                        <b class="arrow fa fa-angle-down"></b>
+                    </a>
+                    <b class="arrow"></b>
+                    <ul class="submenu">
+                        <li class="active hover">
+                            <a href="top-menu.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Top Menu
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="two-menu-1.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Two Menus 1
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="two-menu-2.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Two Menus 2
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="mobile-menu-1.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Default Mobile Menu
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="mobile-menu-2.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Mobile Menu 2
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Mobile Menu 3
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="hover">
+                    <a href="#" class="dropdown-toggle">
+                        <i class="menu-icon fa fa-caret-right"></i>
+                        Maintenance
+                        <b class="arrow fa fa-angle-down"></b>
+                    </a>
+                    <b class="arrow"></b>
+                    <ul class="submenu">
+                        <li class="active hover">
+                            <a href="top-menu.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Top Menu
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="two-menu-1.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Two Menus 1
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="two-menu-2.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Two Menus 2
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="mobile-menu-1.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Default Mobile Menu
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="mobile-menu-2.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Mobile Menu 2
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Mobile Menu 3
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="hover">
+                    <a href="#" class="dropdown-toggle">
+                        <i class="menu-icon fa fa-caret-right"></i>
+                        Complaint Handling
+                        <b class="arrow fa fa-angle-down"></b>
+                    </a>
+                    <b class="arrow"></b>
+                    <ul class="submenu">
+                        <li class="active hover">
+                            <a href="top-menu.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Top Menu
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="two-menu-1.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Two Menus 1
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="two-menu-2.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Two Menus 2
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="mobile-menu-1.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Default Mobile Menu
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="mobile-menu-2.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Mobile Menu 2
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Mobile Menu 3
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="hover">
+                    <a href="#" class="dropdown-toggle">
+                        <i class="menu-icon fa fa-caret-right"></i>
+                        Report
+                        <b class="arrow fa fa-angle-down"></b>
+                    </a>
+                    <b class="arrow"></b>
+                    <ul class="submenu">
+                        <li class="active hover">
+                            <a href="top-menu.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Top Menu
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="two-menu-1.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Two Menus 1
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="two-menu-2.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Two Menus 2
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="mobile-menu-1.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Default Mobile Menu
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="mobile-menu-2.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Mobile Menu 2
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="hover">
+                            <a href="mobile-menu-3.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Mobile Menu 3
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
                     </ul>
                 </li>
             </ul>
         </li>
 
-        <li class="hover">
-            <a href="#" class="dropdown-toggle">
-                <i class="menu-icon fa fa-list"></i>
-                <span class="menu-text"> Tables </span>
-                <b class="arrow fa fa-angle-down"></b>
-            </a>
+        <!-- <li class="hover">
+                    <a href="#" class="dropdown-toggle">
+                        <i class="menu-icon fa fa-list"></i>
+                        <span class="menu-text"> Tables </span>
 
-            <b class="arrow"></b>
-
-            <ul class="submenu">
-                <li class="hover">
-                    <a href="tables.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Simple &amp; Dynamic
+                        <b class="arrow fa fa-angle-down"></b>
                     </a>
+
                     <b class="arrow"></b>
+
+                    <ul class="submenu">
+                        <li class="hover">
+                            <a href="tables.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Simple &amp; Dynamic
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="jqgrid.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                jqGrid plugin
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+                    </ul>
                 </li>
 
                 <li class="hover">
-                    <a href="jqgrid.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        jqGrid plugin
+                    <a href="#" class="dropdown-toggle">
+                        <i class="menu-icon fa fa-pencil-square-o"></i>
+                        <span class="menu-text"> Forms </span>
+
+                        <b class="arrow fa fa-angle-down"></b>
                     </a>
+
                     <b class="arrow"></b>
+
+                    <ul class="submenu">
+                        <li class="hover">
+                            <a href="form-elements.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Form Elements
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="form-elements-2.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Form Elements 2
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="form-wizard.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Wizard &amp; Validation
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="wysiwyg.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Wysiwyg &amp; Markdown
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="dropzone.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Dropzone File Upload
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+                    </ul>
                 </li>
-            </ul>
-        </li>
-
-        <li class="hover">
-            <a href="#" class="dropdown-toggle">
-                <i class="menu-icon fa fa-pencil-square-o"></i>
-                <span class="menu-text"> Forms </span>
-                <b class="arrow fa fa-angle-down"></b>
-            </a>
-
-            <b class="arrow"></b>
-
-            <ul class="submenu">
-                <li class="hover">
-                    <a href="form-elements.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Form Elements
-                    </a>
-                    <b class="arrow"></b>
-                </li>
 
                 <li class="hover">
-                    <a href="form-elements-2.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Form Elements 2
-                    </a>
-                    <b class="arrow"></b>
-                </li>
-
-                <li class="hover">
-                    <a href="form-wizard.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Wizard &amp; Validation
-                    </a>
-                    <b class="arrow"></b>
-                </li>
-
-                <li class="hover">
-                    <a href="wysiwyg.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Wysiwyg &amp; Markdown
-                    </a>
-                    <b class="arrow"></b>
-                </li>
-
-                <li class="hover">
-                    <a href="dropzone.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Dropzone File Upload
-                    </a>
-                    <b class="arrow"></b>
-                </li>
-            </ul>
-        </li>
-
-        <li class="hover">
-            <a href="widgets.html">
-                <i class="menu-icon fa fa-list-alt"></i>
-                <span class="menu-text"> Widgets </span>
-            </a>
-            <b class="arrow"></b>
-        </li>
-
-        <li class="hover">
-            <a href="calendar.html">
-                <i class="menu-icon fa fa-calendar"></i>
-                <span class="menu-text">
-                    Calendar
-                    <span class="badge badge-transparent tooltip-error" title="2 Important Events">
-                        <i class="ace-icon fa fa-exclamation-triangle red bigger-130"></i>
-                    </span>
-                </span>
-            </a>
-            <b class="arrow"></b>
-        </li>
-
-        <li class="hover">
-            <a href="gallery.html">
-                <i class="menu-icon fa fa-picture-o"></i>
-                <span class="menu-text"> Gallery </span>
-            </a>
-            <b class="arrow"></b>
-        </li>
-
-        <li class="hover">
-            <a href="#" class="dropdown-toggle">
-                <i class="menu-icon fa fa-tag"></i>
-                <span class="menu-text"> More Pages </span>
-                <b class="arrow fa fa-angle-down"></b>
-            </a>
-            <b class="arrow"></b>
-
-            <ul class="submenu">
-                <li class="hover">
-                    <a href="profile.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        User Profile
+                    <a href="widgets.html">
+                        <i class="menu-icon fa fa-list-alt"></i>
+                        <span class="menu-text"> Widgets </span>
                     </a>
 
                     <b class="arrow"></b>
                 </li>
 
                 <li class="hover">
-                    <a href="inbox.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Inbox
+                    <a href="calendar.html">
+                        <i class="menu-icon fa fa-calendar"></i>
+
+                        <span class="menu-text">
+                            Calendar
+
+                            <span class="badge badge-transparent tooltip-error" title="2 Important Events">
+                                <i class="ace-icon fa fa-exclamation-triangle red bigger-130"></i>
+                            </span>
+                        </span>
                     </a>
 
                     <b class="arrow"></b>
                 </li>
 
                 <li class="hover">
-                    <a href="pricing.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Pricing Tables
+                    <a href="gallery.html">
+                        <i class="menu-icon fa fa-picture-o"></i>
+                        <span class="menu-text"> Gallery </span>
                     </a>
 
                     <b class="arrow"></b>
                 </li>
 
                 <li class="hover">
-                    <a href="invoice.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Invoice
+                    <a href="#" class="dropdown-toggle">
+                        <i class="menu-icon fa fa-tag"></i>
+                        <span class="menu-text"> More Pages </span>
+
+                        <b class="arrow fa fa-angle-down"></b>
                     </a>
 
                     <b class="arrow"></b>
+
+                    <ul class="submenu">
+                        <li class="hover">
+                            <a href="profile.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                User Profile
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="inbox.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Inbox
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="pricing.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Pricing Tables
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="invoice.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Invoice
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="timeline.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Timeline
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="search.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Search Results
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="email.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Email Templates
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="hover">
+                            <a href="login.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Login &amp; Register
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+                    </ul>
                 </li>
 
                 <li class="hover">
-                    <a href="timeline.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Timeline
+                    <a href="#" class="dropdown-toggle">
+                        <i class="menu-icon fa fa-file-o"></i>
+
+                        <span class="menu-text">
+                            Other Pages
+
+                            <span class="badge badge-primary">5</span>
+                        </span>
+
+                        <b class="arrow fa fa-angle-down"></b>
                     </a>
 
                     <b class="arrow"></b>
-                </li>
 
-                <li class="hover">
-                    <a href="search.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Search Results
-                    </a>
+                    <ul class="submenu">
+                        <li class="hover">
+                            <a href="faq.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                FAQ
+                            </a>
 
-                    <b class="arrow"></b>
-                </li>
+                            <b class="arrow"></b>
+                        </li>
 
-                <li class="hover">
-                    <a href="email.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Email Templates
-                    </a>
+                        <li class="hover">
+                            <a href="error-404.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Error 404
+                            </a>
 
-                    <b class="arrow"></b>
-                </li>
+                            <b class="arrow"></b>
+                        </li>
 
-                <li class="hover">
-                    <a href="login.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Login &amp; Register
-                    </a>
+                        <li class="hover">
+                            <a href="error-500.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Error 500
+                            </a>
 
-                    <b class="arrow"></b>
-                </li>
-            </ul>
-        </li>
+                            <b class="arrow"></b>
+                        </li>
 
-        <li class="hover">
-            <a href="#" class="dropdown-toggle">
-                <i class="menu-icon fa fa-file-o"></i>
+                        <li class="hover">
+                            <a href="grid.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Grid
+                            </a>
 
-                <span class="menu-text">
-                    Other Pages
+                            <b class="arrow"></b>
+                        </li>
 
-                    <span class="badge badge-primary">5</span>
-                </span>
+                        <li class="hover">
+                            <a href="blank.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Blank Page
+                            </a>
 
-                <b class="arrow fa fa-angle-down"></b>
-            </a>
-
-            <b class="arrow"></b>
-
-            <ul class="submenu">
-                <li class="hover">
-                    <a href="faq.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        FAQ
-                    </a>
-
-                    <b class="arrow"></b>
-                </li>
-
-                <li class="hover">
-                    <a href="error-404.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Error 404
-                    </a>
-
-                    <b class="arrow"></b>
-                </li>
-
-                <li class="hover">
-                    <a href="error-500.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Error 500
-                    </a>
-
-                    <b class="arrow"></b>
-                </li>
-
-                <li class="hover">
-                    <a href="grid.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Grid
-                    </a>
-
-                    <b class="arrow"></b>
-                </li>
-
-                <li class="hover">
-                    <a href="blank.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Blank Page
-                    </a>
-
-                    <b class="arrow"></b>
-                </li>
-            </ul>
-        </li>
-    </ul><!-- /.nav-list -->
+                            <b class="arrow"></b>
+                        </li>
+                    </ul>
+                </li> -->
+    </ul>
+    <!-- /.nav-list -->
 </div>

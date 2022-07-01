@@ -7,10 +7,14 @@
 
 <!-- bootstrap & fontawesome -->
 <link rel="stylesheet" href="worker_assets/css/bootstrap.min.css" />
-<link rel="stylesheet" href="worker_assets/font-awesome/4.5.0/css/font-awesome.min.css" />
+<!-- <link rel="stylesheet" href="worker_assets/font-awesome/4.5.0/css/font-awesome.min.css" /> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" /> -->
 
 <!-- page specific plugin styles -->
-
+<link rel="stylesheet" href="worker_assets/css/jquery-ui.min.css" />
+<link rel="stylesheet" href="worker_assets/css/bootstrap-datepicker3.min.css" />
+<link rel="stylesheet" href="worker_assets/css/ui.jqgrid.min.css" />
 <!-- text fonts -->
 <link rel="stylesheet" href="worker_assets/css/fonts.googleapis.com.css" />
 

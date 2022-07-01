@@ -7,6 +7,7 @@ class Home extends BaseController
 	public function index()
 	{
 		$session = session();
+		$data['url'] = $this->request->uri->getSegment(1);
 		if (!$session->get('isLoggedIn')) {
 			$data['title'] = 'Log In | B.M Apps &copy; Gramedia ' . date('Y');
 			return view('vLogin', $data);
@@ -36,6 +37,7 @@ class Home extends BaseController
 	public function admin()
 	{
 		$session = session();
+		$data['url'] = $this->request->uri->getSegment(1);
 		if (!$session->get('isLoggedIn')) {
 			$data['title'] = 'Log In | B.M Apps &copy; Gramedia ' . date('Y');
 			return view('vLogin', $data);
@@ -63,6 +65,7 @@ class Home extends BaseController
 	public function superintendent()
 	{
 		$session = session();
+		$data['url'] = $this->request->uri->getSegment(1);
 		if (!$session->get('isLoggedIn')) {
 			$data['title'] = 'Log In | B.M Apps &copy; Gramedia ' . date('Y');
 			return view('vLogin', $data);
@@ -90,6 +93,7 @@ class Home extends BaseController
 	public function worker()
 	{
 		$session = session();
+		$data['url'] = $this->request->uri->getSegment(1);
 		if (!$session->get('isLoggedIn')) {
 			$data['title'] = 'Log In | B.M Apps &copy; Gramedia ' . date('Y');
 			return view('vLogin', $data);

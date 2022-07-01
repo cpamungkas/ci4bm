@@ -11,6 +11,7 @@ class CStore extends BaseController
     {
         $data = [];
         $session = session();
+        $data['url'] = $this->request->uri->getSegment(1);
         if (!$session->get('isLoggedIn')) {
             $data['title'] = 'Log In | B.M Apps &copy; Gramedia ' . date('Y');
             return view('vLogin', $data);
@@ -26,7 +27,14 @@ class CStore extends BaseController
             $data['role_id'] = $session->get('role_id');
             $data['date_created'] = $session->get('date_created');
             $data['status_deleted'] = $session->get('status_deleted');
-            $data['tablestore'] = (new StoreModel())->getDataALl();  //(new SalesdailyModel())->getDataAll();
+            $data['getDataAllTable'] = (new StoreModel())->getDataAll();  //(new SalesdailyModel())->getDataAll();
+            $data['getDataTableStore'] = (new StoreModel())->getDataTableStore();  //(new SalesdailyModel())->getDataAll();
+            $data['getKWHMeter1'] = (new StoreModel())->getKWHMeter1();  //(new SalesdailyModel())->getDataAll();
+            $data['getKWHMeter2'] = (new StoreModel())->getKWHMeter2();  //(new SalesdailyModel())->getDataAll();
+
+            $data['js'] = '<script src="worker_assets/js/jquery.jqGrid.min.js"></script>
+            <script src="worker_assets/js/grid.locale-en.js"></script>';
+            $data['url'] = $this->request->uri->getSegment(1);
             return view('vStore', $data);
         }
     }

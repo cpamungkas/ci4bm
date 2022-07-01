@@ -25,10 +25,27 @@ class StoreModel extends Model
         return $this->db->table($this->table)->get()->getLastRow()->idStore;
     }
 
-    public function getDataALl()
+    public function getDataAll()
     {
         $query = "select * from tb_store";
+        return $this->db->query($query)->getResultArray();
+    }
 
+    public function getDataTableStore()
+    {
+        $query = "select idStore, StoreName, KWHMeter1, idPLN1, KWHMeter2, idPLN2 from tb_store where status_deleted = 0";
+        return $this->db->query($query)->getResultArray();
+    }
+
+    public function getKWHMeter1()
+    {
+        $query = "select idkwhmeter1, kwhmeter1 from tb_kwhmeter1 where status_deleted = 0";
+        return $this->db->query($query)->getResultArray();
+    }
+
+    public function getKWHMeter2()
+    {
+        $query = "select idkwhmeter2, kwhmeter2 from tb_kwhmeter2 where status_deleted = 0";
         return $this->db->query($query)->getResultArray();
     }
 }
